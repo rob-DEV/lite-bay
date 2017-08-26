@@ -1,0 +1,61 @@
+body {
+    padding-top: 65px;
+}
+
+
+.error,
+.success {
+    text-align: center;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: #f9b5af;
+    color: red;
+}
+.error ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.success {
+    border: 1px solid green;
+    background-color: #d1f9da;
+    color: green;
+}
+/*main*/
+#search-nav {
+    width: 100%;
+}
+.clipboard {
+    width: 13px;
+    fill: white;
+    margin-top: -3px;
+    position: relative;
+    top: 3px;
+}
+
+
+
+
+/*dashboard*/
+.item_thumbnail {
+    width: 150px;
+    height: 150px;
+
+    min-width: 150px;
+    min-height: 150px;
+
+
+    cursor: pointer;
+}
+
+.item_thumbnail > img {
+    max-width: 150px;
+    max-height: 150px;
+
+}
+.centered-modal-dialog {
+    padding-top: 10%;
+}
